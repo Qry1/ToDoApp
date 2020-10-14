@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.input-sort {
+  padding: 8px;
+	margin-right: 10px;
+	width: 50%;
+	margin-right: 10px;
+}
+
+.sort {
+  width: 30%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 135, 212);
+  cursor: pointer;
+  background: rgb(105, 200, 255);
+}
+
+.sort:hover {
+  background: rgb(155, 218, 255);
+}

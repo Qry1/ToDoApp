@@ -1,0 +1,51 @@
+.item {
+  border-radius: 5px;
+  border: 2px solid rgb(168, 168, 168);
+  padding: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.important {
+  background: rgb(247, 209, 139);
+  font-weight: bold;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item-date {
+  font-style: italic;
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.button-imp {
+  margin-right: 10px;
+  background: rgb(255, 113, 113);
+  border: 2px solid rgb(248, 46, 46); 
+}
+
+.button-imp:hover {
+  background: rgb(255, 153, 153);
+}
+
+.button-del {
+  background: rgb(140, 229, 132);
+  border: 2px solid rgb(47, 197, 34); 
+}
+
+.button-del:hover {
+  background: rgb(184, 252, 178);
+}

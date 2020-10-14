@@ -1,0 +1,47 @@
+input {
+	border-radius: 5px;
+	border: 2px solid rgb(168, 168, 168);
+}
+
+input:focus {
+	outline: none;
+	border: 2px solid rgb(16, 174, 236);
+}
+
+.input-text {
+  padding: 8px;
+	margin-right: 10px;
+	width: 100%;
+}
+
+.input-date {
+	padding: 6px;
+	width: 40%;
+}
+
+.input-submit {
+	padding: 10px;
+	background: rgb(175, 175, 175);
+	margin-left: 10px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.input-submit:hover {
+	background: rgb(209, 209, 209);
+}
+
+.input-submit:focus {
+	outline: none;
+	border: none;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blur {
+	background: rgb(255, 128, 128);
+}
